@@ -14,3 +14,8 @@ make userver-samples-hello_service
 Notes:
 before run to install from ghcr.io you need make login by:<br/>
 echo <GITHUB-TOKEN> | docker login ghcr.io -u <GITHUB-NAME> --password-stdin
+<br>
+For brew you need install libs: <br/>
+brew install cmake ninja git python pkg-config \
+    openssl boost protobuf grpc libpq hiredis \
+    mongo-c-driver curl
